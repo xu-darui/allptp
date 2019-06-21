@@ -1,0 +1,1 @@
+SELECT * FROM `ptop_admin` WHERE  ( `user_name` LIKE '%啊啊啊啊%' OR `real_name` LIKE '%啊啊啊啊%' )  AND `status` = 0 ORDER BY `admin_id` DESC LIMIT 0,10
